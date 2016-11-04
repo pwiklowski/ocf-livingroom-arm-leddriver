@@ -9,7 +9,7 @@
 
 
 void setOutput(uint8_t output, uint16_t value){
-
+	value = value *41;
 
 	switch(output){
 	case 1:
